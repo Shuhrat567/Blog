@@ -3,6 +3,7 @@ import { Dot, Home } from 'lucide-react'
 import Link from 'next/link'
 import {getBlogs} from "@/services/blog.service";
 
+
 async function BlogsPage() {
     const blogs = await getBlogs()
 
