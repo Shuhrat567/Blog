@@ -22,7 +22,6 @@ export interface IAuthor {
         url: string
     }
     bio: string
-
 }
 export interface ICategoryAndTags {
     name: string
